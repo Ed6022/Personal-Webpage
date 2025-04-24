@@ -1,1 +1,21 @@
-theme: minima
+# Site Settings
+title: My Personal Webpage
+email: edsongarcianghelo@hotmail.com
+description: >-
+ A personal webpage to upload assigment from BUAA and more.
+baseurl: "/Personal-Webpage"
+url: "https://ed6022.github.io"
+timezone: China/Hangzhou
+
+#Personal information
+author:
+ name: Edson Garcia
+ bio: Physicist and Remote Sensing Specialist
+ email: edsongarcianghelo@hotmail.com
+
+#Build Settings
+markdown: kramdown
+theme: cayman
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
