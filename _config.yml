@@ -1,11 +1,7 @@
 # Site Settings
 title: My Personal Webpage
 email: edsongarcianghelo@hotmail.com
-description: >-
- A personal webpage to upload assigment from BUAA and more.
-baseurl: "/Personal-Webpage"
-url: "https://ed6022.github.io"
-timezone: China/Hangzhou
+description: A personal webpage to upload assigment from BUAA and more.
 
 #Personal information
 author:
