@@ -11,7 +11,7 @@ author:
 
 #Build Settings
 markdown: kramdown
-theme: cayman
+theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
