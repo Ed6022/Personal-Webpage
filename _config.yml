@@ -4,14 +4,10 @@ email: edsongarcianghelo@hotmail.com
 description: A personal webpage to upload assigment from BUAA and more.
 
 #Personal information
-author:
- name: Edson Garcia
- bio: Physicist and Remote Sensing Specialist
- email: edsongarcianghelo@hotmail.com
+author: Edson Garcia
+
 
 #Build Settings
 markdown: kramdown
 theme: minima
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
+
