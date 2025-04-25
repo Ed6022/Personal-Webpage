@@ -52,13 +52,13 @@ void printMatrix(int matrix[SIZE][SIZE]) {
         printf("\n");  // Move to the next line after printing a row
     }
 }
-
+{% raw %}
 int main() {
     // Define two 3x3 matrices with sample values
     int firstMatrix[SIZE][SIZE] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
     int secondMatrix[SIZE][SIZE] = {{9, 8, 7}, {6, 5, 4}, {3, 2, 1}};
     int result[SIZE][SIZE];  // Matrix to store the result of multiplication
-
+{% endraw %}
     clock_t start = clock();  // Start measuring execution time
     multiplyMatrices(firstMatrix, secondMatrix, result);  // Perform matrix multiplication
     clock_t end = clock();  // Stop measuring execution time
