@@ -2,20 +2,6 @@
 title: Welcome to my first blog ever!
 ---
 
-<header>
-
-<!--
-  <<< Author notes: Course header >>>
-  The static webpage has been created by following the steps presented on (https://github.com/skills/github-pages). 
-  However, the content addition was made from a local machine using Git to manage and Markdown to make the documentation.
--->
-
-# GitHub Pages
-
-_Create a site or blog from your GitHub repositories with GitHub Pages._
-
-</header>
-
 
 ## Report
 
