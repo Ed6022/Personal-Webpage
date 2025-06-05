@@ -7,7 +7,7 @@ title: Welcome to my first blog ever!
 
 The blog has been made using Jekyll as framework, besides being the recommended framework on the tutorial, it has some key aspects:
 
-- Is enabled GitHub Pages.
+- Is enabled on GitHub Pages.
 - The homepage and other subpages can be made using Markdown.
 - Is fairly easy to configurate.
 - Shows good enough on multiple devices.
