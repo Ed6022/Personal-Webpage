@@ -21,7 +21,8 @@ The system configuration is shown at the following list:
 ## Implementation Details
 
 ### C Language Implementation
--  **Source Code**: 
+-  **Source Code**:
+  
 ```c
 #include <stdio.h>  // Standard I/O library for input and output functions
 #include <time.h>   // Library to measure execution time
@@ -55,7 +56,7 @@ void printMatrix(int matrix[SIZE][SIZE]) {
 {% raw %}
 int main() {
     // Define two 3x3 matrices with sample values
-    int firstMatrix[SIZE][SIZE] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int firstMatrix[SIZE][SIZE] = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
     int secondMatrix[SIZE][SIZE] = {{9, 8, 7}, {6, 5, 4}, {3, 2, 1}};
     int result[SIZE][SIZE];  // Matrix to store the result of multiplication
 {% endraw %}
