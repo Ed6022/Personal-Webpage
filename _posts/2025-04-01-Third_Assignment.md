@@ -1,7 +1,7 @@
 <!-- En tu archivo .html o .md -->
 <div id="chat-container">
   <div id="chat-history"></div>
-  <input type="text" id="user-input" placeholder="Pregúntame algo...">
+  <input type="text" id="user-input" placeholder="Ask me something...">
   <button onclick="sendMessage()">Enviar</button>
 </div>
 
@@ -19,7 +19,7 @@ async function sendMessage() {
   chatHistory.innerHTML += `<div class="user-msg">Tú: ${message}</div>`;
   
   input.value = ""; // Limpiar input
-  chatHistory.innerHTML += `<div class="ai-msg">AI: Pensando...</div>`;
+  chatHistory.innerHTML += `<div class="ai-msg">AI: Thinking...</div>`;
   
   // Obtener respuesta
   const response = await askAI(message);
