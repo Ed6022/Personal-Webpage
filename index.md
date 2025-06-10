@@ -2,8 +2,6 @@
 title: Welcome to my first blog ever!
 ---
 
-[Second Assiggnment](./posts/2025-04-24-Second_Assignment.md).
-
 
 
 ## Report
