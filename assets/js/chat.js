@@ -1,6 +1,6 @@
 // assets/js/chat.js
 async function askAI(message) {
-  const API_KEY = sk-7afab057d7ee41f1b40be89822496ec0 ; // <-- ¡PEGA TU API KEY AQUÍ!
+  const API_KEY = "sk-7afab057d7ee41f1b40be89822496ec0"; // <-- ¡PEGA TU API KEY AQUÍ!
   
   try {
     const response = await fetch("https://api.deepseek.com/v1/chat/completions", {
